@@ -156,6 +156,7 @@ vi /etc/nginx/conf.d/你设置的网站域名.conf
 server {  
         listen 80;
         listen [::]:80;
+
         root /path/to/your/site/public; #你的站点文件路径 + /public
         index index.php index.html;
         server_name 你设置的网站域名;
@@ -183,13 +184,13 @@ systemctl reload nginx
 
 ```bash
 dnf install git -y
-git clone -b 2023.3 https://github.com/Anankke/SSPanel-Uim.git .
+git clone -b 2023.5 https://github.com/Anankke/SSPanel-Uim.git .
 wget https://getcomposer.org/installer -O composer.phar
 php composer.phar
 php composer.phar install --no-dev
 ```
 
-?> 这里的 2023.3 代表的是 SSPanel UIM 的版本，你可以在 [Release](https://github.com/Anankke/SSPanel-Uim/releases) 页面中查看当前的最新稳定版本或者是输入 dev 使用开发版。请注意，dev 分支可能在使用过程中出现不可预知的问题。
+?> 这里的 2023.5 代表的是 SSPanel UIM 的版本，你可以在 [Release](https://github.com/Anankke/SSPanel-Uim/releases) 页面中查看当前的最新稳定版本或者是输入 dev 使用开发版。请注意，dev 分支可能在使用过程中出现不可预知的问题。
 
 然后设置网站目录的整体权限
 
