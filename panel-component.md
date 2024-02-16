@@ -13,4 +13,4 @@ SSPanel-UIM 是一个典型的 PHP 网页应用程序，它需要以下服务器
 
 SSPanel-UIM 可以运行于相对低配置的 Linux 系统中，但出于性能考虑，我们推荐至少 2GB 的系统内存供 OPcache 与数据库使用，降低磁盘 IO 消耗。
 
-需要注意的是 SSPanel-UIM 的许多内置功能依赖 Github/Cloudflare 等服务才能正常工作，如果将 SSPanel-UIM 部署于网络受限的环境（i.e 中国，伊朗和越南等对互联网实行严格审查的独裁国家）中可能会导致部分或全部功能失效，并产生法律风险，因此并不推荐将 SSPanel-UIM 部署于这些国家境内。
+需要注意的是 SSPanel-UIM 的许多内置功能依赖 Github/Cloudflare 等服务才能正常工作，如果将 SSPanel-UIM 部署于不正常网络环境（i.e 中国，伊朗和越南等对互联网实行严格审查的独裁国家）中可能会导致部分或全部功能失效，因此并不推荐将 SSPanel-UIM 部署于这些国家境内。
