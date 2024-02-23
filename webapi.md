@@ -8,12 +8,14 @@
 
 节点类型 | 下发的数据
 --------|--------
-Shadowsocks | method, node_speedlimit, node_iplimit, port, passwd, alive_ip
-Shadowsocks2022 | method, node_speedlimit, node_iplimit, passwd, alive_ip
-TUIC | node_speedlimit, node_iplimit, passwd, uuid, alive_ip
-Vmess  | node_speedlimit, node_iplimit, uuid, alive_ip
-Trojan | node_speedlimit, node_iplimit, uuid, alive_ip
+Shadowsocks | method, node_speedlimit, ~~node_iplimit~~, port, passwd, ~~alive_ip~~
+Shadowsocks2022 | method, node_speedlimit, ~~node_iplimit~~, passwd, ~~alive_ip~~
+TUIC | node_speedlimit, ~~node_iplimit~~, passwd, uuid, ~~alive_ip~~
+Vmess  | node_speedlimit, ~~node_iplimit~~, uuid, ~~alive_ip~~
+Trojan | node_speedlimit, ~~node_iplimit~~, uuid, ~~alive_ip~~
 
+?> `node_iplimit` 和 `alive_ip` 将会在 `2024.2` 版本中被移除
+ 
 ---
 路由 | 方式 | 参数 | 描述
 -----|------|-----|-------
