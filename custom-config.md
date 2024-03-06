@@ -158,6 +158,8 @@
 }
 ```
 
+Server key can be generated with `openssl rand -base64 16` command.
+
 # TUIC
 
 ``` json
